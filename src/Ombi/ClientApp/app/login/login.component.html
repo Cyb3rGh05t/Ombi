@@ -11,6 +11,8 @@ include the remember me checkbox
             <div *ngIf="!customizationSettings.logo"><img id="profile-img" class="profile-img-card" src="{{baseUrl}}/images/logo.png"/></div>
             <div *ngIf="customizationSettings.logo"><img id="profile-img" class="center" [src]="customizationSettings.logo" /></div>
             <p id="profile-name" class="profile-name-card"></p>
+            
+            <h1>Lgoin motherfucker</h1>
 
             <form *ngIf="authenticationSettings" class="form-signin" novalidate [formGroup]="form" (ngSubmit)="onSubmit(form)">
                 
